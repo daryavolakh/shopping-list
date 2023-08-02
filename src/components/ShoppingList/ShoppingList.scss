@@ -1,0 +1,7 @@
+.ShoppingList {
+    display: grid;
+    grid-template-columns: repeat(4, calc((100% - 60px) / 4));
+    gap: 20px;
+    background: white;
+    padding: 30px 60px;
+}
